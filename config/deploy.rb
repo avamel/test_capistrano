@@ -13,6 +13,7 @@ set :scm, :git
 set :default_run_options, {:pty => true}
 set :use_sudo, false
 set :rvm_type, :system
+set :normalize_asset_timestamps, false
 
 # Tell Capistrano the servers it can play with
 
