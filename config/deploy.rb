@@ -1,4 +1,5 @@
 require 'bundler/capistrano'
+require 'rvm/capistrano'
 set :default_environment, {
     'PATH' => "/usr/local/rvm/rubies/ruby-2.0.0-p247/bin/:$PATH"
 }

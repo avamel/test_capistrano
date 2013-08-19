@@ -7,7 +7,7 @@
     <file path="/routes.rb" changelist="d0733d5e-326c-437b-af94-e6cb46698d4f" time="1376903505360" ignored="false" />
     <file path="/Gemfile" changelist="d0733d5e-326c-437b-af94-e6cb46698d4f" time="1376904743326" ignored="false" />
     <file path="/index.html.erb" changelist="d0733d5e-326c-437b-af94-e6cb46698d4f" time="1376903557525" ignored="false" />
-    <file path="/deploy.rb" changelist="d0733d5e-326c-437b-af94-e6cb46698d4f" time="1376906720419" ignored="false" />
+    <file path="/deploy.rb" changelist="d0733d5e-326c-437b-af94-e6cb46698d4f" time="1376908330968" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
       <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="70" selection-start="239" selection-end="239" vertical-scroll-proportion="0.27272728">
+            <state line="1" column="23" selection-start="52" selection-end="52" vertical-scroll-proportion="0.045454547">
               <folding />
             </state>
           </provider>
@@ -651,7 +651,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="70" selection-start="239" selection-end="239" vertical-scroll-proportion="0.27272728">
+        <state line="1" column="23" selection-start="52" selection-end="52" vertical-scroll-proportion="0.045454547">
           <folding />
         </state>
       </provider>
