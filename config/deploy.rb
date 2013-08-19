@@ -1,6 +1,6 @@
 require 'bundler/capistrano'
 require 'rvm/capistrano'
-require 'capistrano-helpers/specs'
+#require 'capistrano-helpers/specs'
 
 # define the application and Version Control settings
 set :application, "test_capistrano"
