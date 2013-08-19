@@ -1,8 +1,9 @@
 require 'bundler/capistrano'
+$:.unshift(File.expand_path('./lib', ENV['rvm_path']))
 
-set :default_environment, {
-    'PATH' => "/opt/ruby-enterprise/bin/:$PATH"
-}
+#set :default_environment, {
+#    'PATH' => "/opt/ruby-enterprise/bin/:$PATH"
+#}
 # define the application and Version Control settings
 set :application, "test_capistrano"
 set :repository,  "https://github.com/avamel/test_capistrano.git"
