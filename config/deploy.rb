@@ -44,7 +44,7 @@ end
 #  task :trust_rvmrc do
 #    run "rvm rvmrc trust #{release_path}"
 #  end
-end
+#end
 
 # Define all the tasks that need to be running manually after Capistrano is finished.
 after "deploy", "deploy:migrate"
