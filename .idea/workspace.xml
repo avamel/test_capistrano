@@ -30,7 +30,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="20" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0">
+            <state line="42" column="15" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -75,7 +75,7 @@
       <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="4" selection-start="541" selection-end="1089" vertical-scroll-proportion="1.5909091">
+            <state line="2" column="0" selection-start="54" selection-end="54" vertical-scroll-proportion="-1.5">
               <folding />
             </state>
           </provider>
@@ -628,13 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="20" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/thin.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="15" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
@@ -649,9 +642,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="15" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="4" selection-start="541" selection-end="1089" vertical-scroll-proportion="1.5909091">
+        <state line="2" column="0" selection-start="54" selection-end="54" vertical-scroll-proportion="-1.5">
           <folding />
         </state>
       </provider>

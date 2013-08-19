@@ -1,9 +1,10 @@
 require 'bundler/capistrano'
-#require 'rvm/capistrano'
+require 'rvm/capistrano'
 
 # define the application and Version Control settings
 set :application, "test_capistrano"
 set :repository,  "https://github.com/avamel/test_capistrano.git"
+set :branch, "master"
 set :deploy_via, :copy
 set :user, "root"
 set :deploy_to, "/var/www/test_capistrano"
