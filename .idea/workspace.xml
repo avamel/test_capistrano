@@ -76,7 +76,7 @@
       <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="0" selection-start="1225" selection-end="1321" vertical-scroll-proportion="0.0">
+            <state line="55" column="1" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -94,7 +94,7 @@
       <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="37" selection-start="965" selection-end="965" vertical-scroll-proportion="0.6818182">
+            <state line="38" column="21" selection-start="949" selection-end="949" vertical-scroll-proportion="1.4090909">
               <folding />
             </state>
           </provider>
@@ -133,8 +133,8 @@
         <option value="$PROJECT_DIR$/config/thin.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/config/deploy.rb" />
       </list>
     </option>
   </component>
@@ -717,14 +717,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="1225" selection-end="1321" vertical-scroll-proportion="0.0">
+        <state line="55" column="1" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="37" selection-start="965" selection-end="965" vertical-scroll-proportion="0.6818182">
+        <state line="38" column="21" selection-start="949" selection-end="949" vertical-scroll-proportion="1.4090909">
           <folding />
         </state>
       </provider>
