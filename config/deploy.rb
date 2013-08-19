@@ -16,29 +16,29 @@ set :use_sudo, false
 server "37.139.29.126", :app, :web, :db, :primary => true
 
 # Generate an additional task to fire up the thin clusters
-namespace :deploy do
-  desc "Start the Thin processes"
-  task :start do
-    run  <<-CMD
-      cd /var/www/test_capistrano/current; bundle exec thin start -C config/thin.yml
-    CMD
-  end
-
-  desc "Stop the Thin processes"
-  task :stop do
-    run <<-CMD
-      cd /var/www/test_capistrano/current; bundle exec thin stop -C config/thin.yml
-    CMD
-  end
-
-  desc "Restart the Thin processes"
-  task :restart do
-    run <<-CMD
-      cd /var/www/test_capistrano/current; bundle exec thin restart -C config/thin.yml
-    CMD
-  end
-
-end
+#namespace :deploy do
+#  desc "Start the Thin processes"
+#  task :start do
+#    run  <<-CMD
+#      cd /var/www/test_capistrano/current; bundle exec thin start -C config/thin.yml
+#    CMD
+#  end
+#
+#  desc "Stop the Thin processes"
+#  task :stop do
+#    run <<-CMD
+#      cd /var/www/test_capistrano/current; bundle exec thin stop -C config/thin.yml
+#    CMD
+#  end
+#
+#  desc "Restart the Thin processes"
+#  task :restart do
+#    run <<-CMD
+#      cd /var/www/test_capistrano/current; bundle exec thin restart -C config/thin.yml
+#    CMD
+#  end
+#
+#end
 
 #namespace :rvm do
 #  task :trust_rvmrc do
