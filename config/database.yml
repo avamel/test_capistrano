@@ -14,7 +14,7 @@ development:
   database: test_capistrano_development
   pool: 5
   username: root
-  password:
+  password: uthiycqqxsgl
   socket: /tmp/mysql.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -26,7 +26,7 @@ test:
   database: test_capistrano_test
   pool: 5
   username: root
-  password:
+  password: uthiycqqxsgl
   socket: /tmp/mysql.sock
 
 production:
@@ -35,5 +35,5 @@ production:
   database: test_capistrano_production
   pool: 5
   username: root
-  password:
+  password: uthiycqqxsgl
   socket: /tmp/mysql.sock
