@@ -1,11 +1,13 @@
 require 'bundler/capistrano'
-require 'rvm/capistrano'
-
+set :default_environment, {
+    'PATH' => "/usr/local/rvm/rubies/ruby-2.0.0-p247/bin/:$PATH"
+}
+#require 'rvm/capistrano'
 # define the application and Version Control settings
 set :application, "test_capistrano"
 set :repository,  "https://github.com/avamel/test_capistrano.git"
 set :branch, "master"
-set :deploy_via, :copy
+set :deploy_via, :remote_cache
 set :user, "root"
 set :deploy_to, "/var/www/test_capistrano"
 set :scm, :git
