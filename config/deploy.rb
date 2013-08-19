@@ -45,12 +45,12 @@ namespace :deploy do
 
 end
 
-namespace :rvm do
-  task :trust_rvmrc do
-    run "rvm rvmrc trust #{release_path}"
-  end
-end
+#namespace :rvm do
+#  task :trust_rvmrc do
+#    run "rvm rvmrc trust #{release_path}"
+#  end
+#end
 
 # Define all the tasks that need to be running manually after Capistrano is finished.
 after "deploy", "deploy:migrate"
-after "deploy:migrate", "rvm:trust_rvmrc"
+#after "deploy:migrate", "rvm:trust_rvmrc"
