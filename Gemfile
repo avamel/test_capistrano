@@ -42,6 +42,8 @@ end
 gem 'capistrano'
 gem 'rvm-capistrano'
 gem 'thin'
+gem 'rspec-rails'
+gem 'capybara'
 
 
 # Use debugger
