@@ -7,7 +7,7 @@
     <file path="/routes.rb" changelist="d0733d5e-326c-437b-af94-e6cb46698d4f" time="1376903505360" ignored="false" />
     <file path="/Gemfile" changelist="d0733d5e-326c-437b-af94-e6cb46698d4f" time="1376904743326" ignored="false" />
     <file path="/index.html.erb" changelist="d0733d5e-326c-437b-af94-e6cb46698d4f" time="1376903557525" ignored="false" />
-    <file path="/deploy.rb" changelist="d0733d5e-326c-437b-af94-e6cb46698d4f" time="1376908330968" ignored="false" />
+    <file path="/deploy.rb" changelist="d0733d5e-326c-437b-af94-e6cb46698d4f" time="1376908746724" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0">
+            <state line="43" column="0" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.54545456">
               <folding />
             </state>
           </provider>
@@ -72,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="86" selection-end="165" vertical-scroll-proportion="0.13636364">
+            <state line="2" column="23" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -113,8 +113,8 @@
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/config/thin.yml" />
         <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -635,13 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/thin.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="15" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
@@ -651,7 +644,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="86" selection-end="165" vertical-scroll-proportion="0.13636364">
+        <state line="2" column="23" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="0" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.54545456">
           <folding />
         </state>
       </provider>
