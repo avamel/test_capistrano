@@ -20,7 +20,7 @@ set :rvm_type, :system
 
 server "37.139.29.126", :app, :web, :db, :primary => true
 
-Generate an additional task to fire up the thin clusters
+#Generate an additional task to fire up the thin clusters
 namespace :deploy do
   desc "Start the Thin processes"
   task :start do
