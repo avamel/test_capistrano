@@ -15,7 +15,7 @@ set :deploy_to, "/var/www/test_capistrano"
 set :scm, :git
 set :default_run_options, {:pty => true}
 set :use_sudo, false
-set :rvm_type, :user
+set :rvm_type, :system
 
 # Tell Capistrano the servers it can play with
 
