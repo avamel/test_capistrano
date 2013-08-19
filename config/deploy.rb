@@ -1,12 +1,15 @@
 require "bundler/capistrano"
-default_run_options[:pty] = true
 
 # define the application and Version Control settings
 set :application, "test_capistrano"
-set :repository,  "https://github.com/avamel/"
+set :repository,  "https://github.com/avamel/test_capistrano.git"
 set :deploy_via, :copy
 set :user, "root"
-set :deploy_to, "/var/www/apps"
+set :deploy_to, "/var/www/test_capistrano"
+#set :rvm_type, :root  # Literal ":user"
+set :scm, :git
+set :default_run_options, {:pty => true}
+set :use_sudo, false
 
 # Tell Capistrano the servers it can play with
 
@@ -37,5 +40,12 @@ namespace :deploy do
 
 end
 
+#namespace :rvm do
+#  task :trust_rvmrc do
+#    run "rvm rvmrc trust #{release_path}"
+#  end
+end
+
 # Define all the tasks that need to be running manually after Capistrano is finished.
 after "deploy", "deploy:migrate"
+#after "deploy:migrate", "rvm:trust_rvmrc"
