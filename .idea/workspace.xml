@@ -84,19 +84,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="34" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
+            <state line="2" column="0" selection-start="55" selection-end="89" vertical-scroll-proportion="-0.27272728">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
+            <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -134,10 +134,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/thin.yml" />
         <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/spec/requests/home_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/deploy.rb" />
       </list>
     </option>
   </component>
@@ -757,13 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="34" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="13" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.0">
@@ -781,6 +774,13 @@
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="55" selection-end="89" vertical-scroll-proportion="-0.27272728">
           <folding />
         </state>
       </provider>
